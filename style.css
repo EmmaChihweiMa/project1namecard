@@ -1,0 +1,85 @@
+*{
+/*   border: solid 1px; */
+  font-family: Bradley Hand;
+  position: relative;
+}
+html,body{
+  width: 100%; height: 100%;
+  padding: 0px; margin: 0px;
+}
+body{
+  background-color: #d1d1d1;
+  border-top: solid 20px #3492eb;
+  border-bottom: solid 20px #3492eb;
+  
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.namecard{
+  width: 400px; height: 200px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  background-color: #eee;
+  
+  letter-spacing: 1px;
+  color: #666;
+  font-weight: 100px;
+  
+  overflow: hidden;
+  border-radius: 6px;
+  border: solid 1px rgba(0,0,0,0.15);
+  
+  box-shadow: 0px 20px 15px rgba(0,0,0,0.2);
+}
+.namecard h2{
+  font-size: 25px;
+  font-weight: 700px;
+}
+.namecard h2 span{
+  font-size: 15px;
+}
+.namecard h5{
+  color: #3492eb;
+  font-weight: 200px;
+}
+.namecard p{
+  font-size: 12px;
+}
+.circle{
+  width: 100px; height: 100px;
+  border-radius: 100%;
+  position: absolute;
+}
+.circle1{
+  right: 100px;
+  bottom: -60px;
+  background-color: #3492eb;
+}
+.circle2{
+  width: 60px; height: 60px;
+  right: -30px;
+  top: -30px;
+  background-color: #3492eb;
+ 
+}
+.circle3{
+  width: 70px; height: 70px;
+  right: -40px;
+  top: -40px;
+  border: solid 3px #3492eb; 
+}
+.page_title{
+/*   border: solid 1px; */
+  text-align: center;
+  color: #555;
+  font-weight: 500;
+}
+.mark{
+  font-size: 200px;
+  position: absolute;
+  bottom: 100px;
+  font-weight: 300;
+  color: rgba(0,0,0,0.02);
+}
